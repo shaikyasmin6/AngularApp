@@ -1,0 +1,9 @@
+<div class="card h-100">
+    <div class="card-body">
+        <img src="{{prod.productImage}}" alt="" class="card-img-top w-100" height="150px">
+    </div>
+    <h5>{{prod.productTitle}}</h5>
+    <h6>{{prod.productPrice}}</h6>
+    <p id="p1">Earliest Delivery:{{prod.productDelivery}}</p>
+    <button class="btn btn-primary w-50 d-block m-2" (click)="sendData(prod.productTitle)">Add to cart</button>
+</div>

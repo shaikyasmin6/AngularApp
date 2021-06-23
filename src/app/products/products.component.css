@@ -1,0 +1,28 @@
+p
+{
+    display:flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    color:white;
+    font-size: 20px;
+}
+.text-center
+{
+    background-color: rgb(192, 164, 164);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px gray;
+}
+#h1
+{
+color:teal;
+}
+.nav-link:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    box-shadow: 2px 2px 4px black;
+
+}

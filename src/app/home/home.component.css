@@ -1,0 +1,14 @@
+.fluid-container
+{
+    background-image: linear-gradient(rgb(255,82,82),rgb(255,123,123));
+}
+.img
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:50px;
+}
+img{
+    border-radius: 8px;
+}

@@ -1,0 +1,13 @@
+<table class="table text-dark text-center">
+    <thead>
+        <tr>
+            <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let userobj of south">
+            <td><button class="btn btn-success d-block mx-auto" (click)="onSelectId(userobj)">{{userobj.ActiveCases}}</button></td>
+        </tr>
+    </tbody>
+</table>
+<!-- <h1 *ngFor="let covidata of yasmin">{{covidata.response[0]}}</h1> -->
